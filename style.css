@@ -1,0 +1,79 @@
+
+
+
+
+
+.nav{
+position:absolute;
+top:5rem;
+right:5rem;
+display:none;
+background-color: rgb(202, 227, 232);
+}
+ul li{
+list-style-type: none;
+display: inline-block;
+}
+ul a {
+    position:relative;
+    left:-20px;
+text-decoration: none;
+font-size: 20px;
+color: rgb(187, 65, 65);
+padding: 5px;
+
+
+}
+.button{
+text-align: center;
+width: 100px;
+    font-size: 20px;
+    color:aliceblue;
+    border: 5px solid rgb(72, 11, 213);
+    padding: 5px;
+    background-color: black;
+    position: fixed;
+    right: 10rem;
+    top: 2rem;
+}
+
+
+
+.navber:hover .nav{
+    display: block;
+    }
+
+img{
+width: 200px;
+height:100px;
+float: left;
+
+}
+h2{
+    clear:left;
+}
+.bg{
+background-image: url(cap-3.jpg);
+width: 300px;
+height: 500px;
+background-repeat: no-repeat;
+opacity: 0.6;
+overflow: hidden;
+
+}
+.box p{
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(255, 149, 0);
+    padding: 10px;
+    opacity: 0.5;
+}
+.boxs{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(208, 195, 21);
+
+}
+.boxs:hover {
+transform:translateY(-10px) ;
+}
